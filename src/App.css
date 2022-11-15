@@ -1,0 +1,140 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #E8F6F3;
+}
+header.header-block{
+ 
+  width: 100%;
+  background-color: #148F77;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  
+}
+header.header-block .container{
+   display: flex;
+   width: 100%;
+
+}
+@media (min-width:760px) {
+  header.header-block .container{
+    width: 760px;
+  }
+}
+header h2.header-title{
+  margin: 0;
+  flex-grow: 1;
+  color:#D0ECE7 ;
+  font-weight: bold;
+}
+header .icon{
+  display: flex;
+  /* align-items: center; */
+}
+header div .header-icons{
+  width: fit-content;
+  font-size: 40px;
+  color: #D0ECE7;
+}
+header div .header-number{
+  width: 25px;
+  height: 25px;
+  background-color:#73C6B6  ;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  color: #D0ECE7;
+}
+.products-group{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  position: relative;
+  margin-top: 50px;
+
+}
+.products-group h1{
+  color: #0B5345;
+}
+.products-group .total h3{
+  color: #0B5345;
+  margin-top: -20px;
+}
+.clear{
+  background-color: #148F77;
+  border: 0;
+  padding: 10px;
+  font-size: larger;
+  border-radius: 20px;
+  color: #A3E4D7;
+  cursor: pointer;
+}
+section{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background-color: #A3E4D7;
+  width: 100%;
+  padding: 10px;
+}
+.line{
+  width: 100%;
+  height: 2px;
+  background-color: #0B5345;
+}
+@media (min-width:768px) {
+  section{
+    width: 760px;
+    border-radius: 20px;
+  }
+  .line{
+    width: 760px;
+  }
+}
+section img.product-image{
+  width: 30%;
+  border-radius: 20px;
+}
+section .product-info{
+  flex-grow: 1;
+}
+
+section .product-info span{
+  font-size: 20px;
+}
+section .product-info span.definition{
+  color: #0B5345;
+}
+section .product-info span.declaration{
+  color:#45B39D ;
+}
+section .product-info button{
+  background-color: #0B5345;
+  border: 0;
+  padding: 10px;
+  border-radius: 20px;
+  color: #A3E4D7;
+  font-size: 15px;
+  cursor:pointer;
+
+}
+section .change-amount {
+  text-align: center;
+  font-size: 30px;
+  border-radius: 5px;
+  vertical-align: center;
+  color: #0B5345;
+  
+}
+section .icon{
+  box-sizing:content-box;
+  padding: 2px;
+  background-color:#7DCEA0 ;
+  border-radius: 5px;
+  cursor: pointer;
+}
